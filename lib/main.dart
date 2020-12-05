@@ -24,7 +24,7 @@ class _MyAppState extends State<MyApp> {
               fontWeight: FontWeight.bold,
               fontSize: 20.0
           ),),
-        image: new Image.network('https://www.pinterest.com/pin/484066659926481647/'),
+        image: new Image.network('https://www.flaticon.com/free-icon/dice_229800'),
         backgroundColor: Colors.white,
         styleTextUnderTheLoader: new TextStyle(),
         photoSize: 100.0,
