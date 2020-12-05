@@ -1,6 +1,6 @@
-
+import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:fa17_bse_076/splashScreen.dart';
+import 'package:fa17_bse_076/splashscreen.dart';
 void main() {
   runApp(SplashScreen());
 }
@@ -12,12 +12,14 @@ class SplashScreen extends StatelessWidget {
       title: 'Splash Screen',
       theme: ThemeData(
         primarySwatch: Colors.green,
+
       ),
 
       debugShowCheckedModeBanner: false,
     );
   }
 }
+
 
 
 
