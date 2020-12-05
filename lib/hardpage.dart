@@ -10,7 +10,7 @@ class _HardDiceState extends State<HardDice> {
     return Scaffold(
       backgroundColor: Colors.grey[200],
       appBar: AppBar(
-        title: Text('Hard Dice Roll'),
+        title: Text('Hard Roll'),
       ),
     );
   }
