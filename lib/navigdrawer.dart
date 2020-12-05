@@ -73,10 +73,10 @@ class _HomePageState extends State<HomePage> {
           padding: EdgeInsets.zero,
           children: [
             UserAccountsDrawerHeader(
-                accountName: Text('ZAIN_UL_ABIDEEN'),
-                accountEmail: Text('zaynee.chaudhary@gmail.com'),
+                accountName: Text('MARIAM TAYYAB'),
+                accountEmail: Text('mariamtayyab08@gmail.com'),
                 currentAccountPicture: CircleAvatar(
-                    backgroundImage: AssetImage('image/zain.jpg')
+                    backgroundImage: AssetImage('image/mariam.png')
 
                 )
             ),
@@ -89,13 +89,13 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               leading: Icon(Icons.phone_android),
               title: Text('Phone'),
-              subtitle: Text('03052740995'),
+              subtitle: Text('0300000000'),
               trailing: Icon(Icons.edit),
             ),
             ListTile(
               leading: Icon(Icons.email),
               title: Text('Email'),
-              subtitle: Text('zaynee.chaudhary@gmail.com'),
+              subtitle: Text('mariamtayyab08@gmail.com'),
               trailing: Icon(Icons.edit),
             ),
           ],
