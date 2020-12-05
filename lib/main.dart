@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
+import 'dart:math';
+
+
 void main(){
   runApp(new MaterialApp(
     home: new MyApp(),
